@@ -1,7 +1,0 @@
-echo "# Glorious-Client-Panel" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/gxzr51001/Glorious-Client-Panel.git
-git push -u origin main
