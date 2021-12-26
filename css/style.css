@@ -13,6 +13,7 @@
     --scrollbar-color: #2f178f;
     --scrollbar-hover-color: #251272;
     --server-card-color: #F0eee4;
+    --red-color: rgb(255, 0, 0);
 }
 
 [data-theme="dark"] {
@@ -30,6 +31,7 @@
     --scrollbar-color: #2f178f;
     --scrollbar-hover-color: #251272;
     --server-card-color: #313131;
+    --red-color: rgb(255, 0, 0);
 }
 
 *,
@@ -418,4 +420,10 @@ footer {
   .user-name:hover {
       text-decoration: none;
       color: var(--selected-color);
+  }
+
+  .a-warning {
+    color: var(--red-color);
+    padding-left: 13px;
+    font-size: 20px;
   }
